@@ -1,0 +1,11 @@
+# Ignorar todos los archivos de imagen
+*.tif
+*.tiff
+*.jp2
+*.img
+*.jpeg
+*.png
+*.xml
+*.jpg
+*.xml
+*.gif
