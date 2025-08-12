@@ -54,14 +54,14 @@ try:
     # --- 3. CREACIÓN Y GUARDADO DEL MAPA ---
     mapa_folium = folium.Map(
         location=[centro_lat, centro_lon],
-        zoom_start=8,
+        zoom_start=6,
         control_scale=True
     )
     
     folium.raster_layers.ImageOverlay(
         image=image_uri,
         bounds=bounds_wgs84,
-        opacity=0.9,
+        opacity=0.8,
         name='Mapa de SSI'
     ).add_to(mapa_folium)
     
